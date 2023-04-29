@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+#navbar{
+    background-color: black;
+    height: 65px;
+    width: 100%;
+    text-align: center;
+    position: fixed;
+}
+#navbar li{
+    display: inline-block; 
+    padding: 20px 20px;
+    font-size: 14px;
+}
+#navbar a{
+    font-size: 14px;
+    text-decoration: none;
+    color: white;   
+}
+
+#title{
+    font-family: 'Nunito Sans', sans-serif;
+    background-image: url("background-image.jpg");
+    background-repeat: no-repeat;
+    background-position: 100% ;
+    width: auto;
+    height: 600px;
+    padding-top: 250px ;
+    color: white;
+    text-align: center;
+}
+#title h1{
+    font-size: 54px;   
+}
+#title p{
+    font-size: 36px;    
+}
+
+#info {
+    height: auto;
+    font-size: 20px;
+    padding: 100px 200px 100px 200px;
+    font-family: 'Nunito Sans', sans-serif; 
+
+}
+#info li{
+    font-size: 20px;
+    padding: 0px 0px 0px 40px;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+/* ABOUTME STYLES */
+
+#about{
+    height: auto;
+    font-size: 20px;
+    padding: 50px 50px;
+    font-family: 'Nunito Sans', sans-serif; 
+}
+#about h1{
+    padding: 20px 0px;
+}
+#about hr{
+    height: 2px;
+    outline-color: #e5e5e5 ;
+}
+#about p{
+    padding: 20px 0px;
+}
+#about p a {
+    color: hsl(271, 79%, 46%);
+}
+
+/* PROJECTS STYLES */
+
+#heading {
+    height: 100px;
+    width: ;
+    background-color: #e5e5e5;
+    color: black;
+    justify-content: center;
+    align-items: center; 
+    display: flex;
+    font-size: 20px;
+    font-style: bold;
+}
+#projects{
+    height: 500px;
+    font-size: 20px;
+    padding: 100px 50px 0px 50px;
+    font-family: 'Nunito Sans', sans-serif; 
+}
+#projects h1{
+    padding: 0px 0px 10px 0px;
+}
+#projects hr{
+    height: 2px;
+    outline-color: #e5e5e5 ;
+}
+#projects p{
+    padding: 50px 0px;
+}
+
+/* CONTACT STYLES */
+#contactheading {
+    height: auto;
+    background-color: white;
+    color: black;
+    justify-content: center;
+    align-items: center; 
+    display: flex;
+    font-size: 20px;
+    font-style: bold;
+}
+#logo {
+    height: auto;
+    padding: 20px 20px 50px 0px;
+    justify-content: center;
+    align-items: center; 
+    display: flex;
+}
+img{
+    height: 50px;
+    width: 50px;
+    padding: 20px 20px;
+}
+
+/* FOOTER STYLE */
+#footer {
+    background-color: black;
+    height: 65px;
+    font-size: 20px;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    display: flex;   
+}
